@@ -1,0 +1,11 @@
+[project]
+name = "speculative-decoding"
+version = "0.1.0"
+description = "Companion code for the blog post: Speculative Decoding from Scratch"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.12.0",
+    "torch>=2.10.0",
+    "transformers>=4.40.0",
+]
